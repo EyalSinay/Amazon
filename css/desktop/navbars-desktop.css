@@ -1,6 +1,6 @@
 /* first-nav */
 .first-nav{
-    background-color: var(--black);
+    background-color: var(--dark_blue);
     color: var(--white);
     height: 60px;
 
@@ -31,9 +31,15 @@
 
     /* first-nav-search */
 #nav-search{
-    display: flex;
+    display: grid;
+    grid-template-columns: 52px 1fr 45px;
     justify-content: center;
     align-items: center;
+}
+
+#select{
+    max-width: 52px;
+    height: 40px;
 }
 
 #nav-select{
@@ -43,12 +49,12 @@
 }
 
 #nav-search-field{
-    max-width: 813px;
+    max-width: 100%;
     height: 40px;
 }
 
 #nav-search-btn{
-    width: 45px;
+    max-width: 45px;
     height: 50px;
     background-color: var(--orange);
 }
