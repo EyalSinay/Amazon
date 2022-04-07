@@ -175,6 +175,7 @@
     }
 }
 
+/* add1 */
 #add1{
     display: flex;
     justify-content: center;
@@ -189,4 +190,25 @@
 
 .orange{
     color: var(--orange);
+}
+
+
+/* fourth-nav */
+#fourth-nav ul{
+    list-style: none;
+    display: flex;
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+#fourth-nav ul li{
+    padding: 0px 4px;
+}
+
+#fourth-nav ul li a{
+    color: var(--gray3);
+}
+
+#fourth-nav ul li a:hover{
+    text-decoration: underline;
 }
