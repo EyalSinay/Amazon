@@ -1,0 +1,96 @@
+/* first-nav */
+.first-nav{
+    background-color: var(--black);
+    color: var(--white);
+    height: 60px;
+
+    display: grid;
+    grid-template-columns: 216px 1fr 365px;
+    
+    align-items: center;
+}
+
+    /* first-nav-left */
+#nav-left{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav-log-sprits{
+    width: 96px;
+	height: 29px;
+    background: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png) no-repeat -10px -51px;
+}
+
+#nav-packard-glow-loc-icon{
+    background: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png) no-repeat -71px -306px;
+	width: 17px;
+	height: 20px;
+}
+
+    /* first-nav-search */
+#nav-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-select{
+    max-width: 52px;
+    height: 40px;
+    background-color: var(--gray);
+}
+
+#nav-search-field{
+    max-width: 813px;
+    height: 40px;
+}
+
+#nav-search-btn{
+    width: 45px;
+    height: 50px;
+    background-color: var(--orange);
+}
+
+#nav-search-btn__img{
+    background: url(https://m.media-amazon.com/images/S/sash/McBZv0ZvnbehkIx.png) no-repeat -196px -38px;    
+    width: 22px;
+	height: 22px;
+}
+
+    /* first-nav-tools */
+#nav-tools{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#icp-nav-flag{
+	background: url(https://m.media-amazon.com/images/S/sash/lZnO6IKWusCAeIh.png) no-repeat 0 -130px;
+	width: 24px;
+	height: 18px;
+}
+
+#icp-nav-arrow{
+	background: url(https://m.media-amazon.com/images/S/sash/lZnO6IKWusCAeIh.png) no-repeat -81px -86px;
+	width: 9px;
+	height: 5px;
+}
+
+#nav-cart-icon{
+	background: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png) no-repeat -10px -340px;
+	width: 38px;
+	height: 26px;
+}
+
+.type1{
+    font-size: 12px;
+}
+.type2{
+    font-size: 14px;
+}
+
+#cart-num{
+    color: var(--orange)
+}
