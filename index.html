@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2e3426985d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/style.css">
@@ -20,10 +21,10 @@
 </head>
 
 <body>
-    <nav class="first-nav">
+    <nav id="first-nav">
         <div id="nav-left">
-            <div id="nav-log-sprits"></div>
-            <div id="deliver">
+            <div id="nav-log-sprits" class="first-nav-op nav-op"></div>
+            <div id="deliver" class="first-nav-op nav-op">
                 <div id="nav-packard-glow-loc-icon"></div>
                 <div id="deliver-text">
                     <p class="type1">Deliver to</p>
@@ -42,25 +43,25 @@
                 <option value="op">op</option>
             </select>
             <input type="text" id="nav-search-field" name="nav-search-field" value="A disproportionate bear">
-            <button id="nav-search-btn">
+            <button id="nav-search-btn" class="first-nav-op nav-op">
                 <div id="nav-search-btn__img"></div>
             </button>
         </div>
         <div id="nav-tools">
-            <div id="chang-language">
+            <div id="chang-language" class="first-nav-op nav-op">
                 <div id="icp-nav-flag"></div>
                 <div id="icp-nav-arrow"></div>
             </div>
-            <div id="link-account-lists">
+            <div id="link-account-lists" class="first-nav-op nav-op">
                 <p class="type1">Hellow, Sign in</p>
                 <p class="type2">Account & Lists</p>
                 <div id="icp-nav-arrow"></div>
             </div>
-            <div id="nav-orders">
+            <div id="nav-orders" class="first-nav-op nav-op">
                 <p class="type1">Returns</p>
                 <p class="type2">& Orders</p>
             </div>
-            <div id="nav-cart">
+            <div id="nav-cart" class="first-nav-op nav-op">
                 <div id="cart-num-containe">
                     <p id="cart-num">0</p>
                 </div>
@@ -69,6 +70,48 @@
             </div>
         </div>
     </nav>
+    <nav id="second-nav">
+        <div id="all" class="second-nav-op nav-op">
+            <i class="fa-solid fa-bars"></i>
+            <a href="#">All</a>
+        </div>
+        <div id="todays" class="second-nav-op nav-op">
+            <a href="#">Today's Deals</a>
+        </div>
+        <div id="customer" class="second-nav-op nav-op">
+            <a href="#">Customer Service</a>
+        </div>
+        <div id="registry" class="second-nav-op nav-op">
+            <a href="#">Registry</a>
+        </div>
+        <div id="gift-card" class="second-nav-op nav-op">
+            <a href="#">Gift Cards</a>
+        </div>
+        <div id="sell" class="second-nav-op nav-op">
+            <a href="#">Sell</a>
+        </div>
+        <div id="local-delivery" class="second-nav-op nav-op">
+            <a href="#">Local Delivery in Israel</a>
+        </div>
+    </nav>
+    <nav id="third-nav">
+        <ul>
+            <li><a href="#">Toys & Games</a></li>
+            <li><a href="#">HolidayToy List</a></li>
+            <li><a href="#">Shop Toys by Age</a></li>
+            <li><a href="#">Shop Toys by Character</a></li>
+            <li><a href="#">Shop Best Selling Toys</a></li>
+            <li><a href="#">Shop Newly Released Toys</a></li>
+            <li><a href="#">Shop Amazon Exclusive Toys</a></li>
+            <li><a href="#">Shop Toys Deals</a></li>
+            <li><a href="#">Create a Birthday Gift List</a></li>
+            <li><a href="#">Create a Holiday Gift List</a></li>
+        </ul>
+    </nav>
+    <div id="add1">
+        <img src="assets/images/add.png" alt="no image">
+        <p>Nothing to sell to people who looking to buy nothing <span class="orange">$32.27</span></p>
+    </div>
 </body>
 
 </html>
