@@ -1,0 +1,55 @@
+main{
+    color: var(--black);
+    display: grid;
+    grid-template-columns: 650px auto 890px;
+}
+
+#main-images{
+    display: flex;
+}
+
+#main-images-small{
+    display: flex;
+    flex-direction: column;
+}
+
+.small-images-bar{
+    width: 40px;
+    height: 40px;
+    margin: 4px 4px 4px 16px;
+}
+
+#main-images-small-item1{
+    background: url(https://m.media-amazon.com/images/I/41KGsG8uc4L._AC_US40_.jpg) no-repeat center;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+#main-images-small-item2{
+    background: url(https://m.media-amazon.com/images/I/41KGsG8uc4L._AC_US40_.jpg) no-repeat center;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+#main-images-small-item3{
+    background: url(https://m.media-amazon.com/images/I/41KGsG8uc4L._AC_US40_.jpg) no-repeat center;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+#main-images-small-item4{
+    background: url(https://m.media-amazon.com/images/I/41KGsG8uc4L._AC_US40_.jpg) no-repeat center;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+#main-images-small-item5{
+    background: url(https://m.media-amazon.com/images/I/41KGsG8uc4L._AC_US40_.jpg) no-repeat center;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+#main-images-small-item6{
+    background: url(https://m.media-amazon.com/images/I/41KGsG8uc4L._AC_US40_.jpg) no-repeat center;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+#main-images-small-item7{
+    background: url(https://m.media-amazon.com/images/I/41KGsG8uc4L._AC_US40_.jpg) no-repeat center;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+#main-images-big{
+    background: url(https://m.media-amazon.com/images/I/61DBuG8KLDL._AC_SL1335_.jpg) no-repeat center;
+    max-width: 588.48px;
+    max-height: 613px;
+}
