@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -11,4 +15,28 @@ a{
 p{
     margin: 0;
     padding: 0;
+}
+
+.red2{
+    color: var(--red2);
+}
+
+.orange{
+    color: var(--orange);
+}
+
+.bright-text{
+    color: var(--gray3);
+}
+
+.strong{
+    font-weight: bold;
+}
+
+.black{
+    color: var(--black);
+}
+
+.under-line{
+    border-bottom: 1px solid var(--gray);
 }
