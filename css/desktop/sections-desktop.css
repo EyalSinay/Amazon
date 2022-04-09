@@ -59,6 +59,7 @@
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
+    font-size: 14px;
 }
 
 .product{
@@ -67,4 +68,9 @@
 
 .product__img{
     width: 100%;
+}
+
+.rating-container,
+.price-container{
+    display: flex;
 }

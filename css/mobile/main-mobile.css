@@ -1,0 +1,15 @@
+.image-details-container{
+    display: flex;
+    flex-direction: column;
+}
+
+#main-images{
+    display: flex;
+    flex-direction: column-reverse;
+    position: static;
+}
+
+#main-images-small{
+    display: flex;
+    flex-direction: row;
+}
