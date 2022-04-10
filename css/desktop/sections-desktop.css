@@ -74,3 +74,25 @@
 .price-container{
     display: flex;
 }
+
+
+@media screen and (max-width: 1405px){
+    .product.product7{
+        display: none;
+    }
+}
+@media screen and (max-width: 1245px){
+    .product.product6{
+        display: none;
+    }
+}
+@media screen and (max-width: 1085px){
+    .product.product5{
+        display: none;
+    }
+}
+@media screen and (max-width: 975px){
+    .product.product4{
+        display: none;
+    }
+}
