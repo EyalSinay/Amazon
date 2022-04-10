@@ -1,3 +1,7 @@
+#main{
+    display: block;
+}
+
 .image-details-container{
     display: flex;
     flex-direction: column;

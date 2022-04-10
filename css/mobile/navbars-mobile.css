@@ -5,14 +5,17 @@
     align-items: center;
 }
 
-#nav-log-sprits{
+#nav-log-sprits,
+#nav-search,
+#icp-nav-flag,
+#nav-orders,
+#third-nav ul li:nth-last-child(5),
+#third-nav ul li:nth-last-child(6),
+#second-nav{
     display: none;
 }
 
-#icp-nav-flag{
-    display: none;
-}
-
-#nav-orders{
-    display: none;
+#nav-search-mobile{
+    display: grid;
+    grid-template-columns: 40px auto 40px;
 }

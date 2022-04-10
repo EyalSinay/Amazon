@@ -123,6 +123,12 @@
 }
 
 
+/* nav-search-responsive */
+#nav-search-mobile{
+    display: none;
+}
+
+
 /* second-nav */
 #second-nav{
     width: 100%;
